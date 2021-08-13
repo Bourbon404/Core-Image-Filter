@@ -4,7 +4,7 @@
 
 首先展示原图
 
-<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexh57oyuj60et0m8mzn02.jpg" alt="1" style="zoom: 33%;" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexh57oyuj60et0m8mzn02.jpg" alt="1" width="25%;" />
 
 ## 介绍
 
@@ -20,7 +20,7 @@
 
    下面是处理的结果
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexjinr4lj60u01sxjvl02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.00.24" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexjinr4lj60u01sxjvl02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.00.24" width="25%;" />
 
 2. `CIDiscBlur`圆形模糊
 
@@ -30,7 +30,7 @@
 
    下面是处理结果
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexluf90yj60u01sx42302.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.02.46" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexluf90yj60u01sx42302.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.02.46" width="25%;" />
 
 3. `CIGaussianBlur`高斯模糊
 
@@ -40,7 +40,7 @@
 
    下面是处理结果
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexouk2elj60u01sxad302.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.05.37" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtexouk2elj60u01sxad302.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.05.37" width="25%;" />
 
 4. `CIMaskedVariableBlur`遮罩模糊
 
@@ -57,7 +57,7 @@
 
    下面分别是遮罩和最终效果，还有一个效果2
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtey3wvmnuj60u01sx41i02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.13.01" style="zoom:15%;" /><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtey3w8ce3j60u01sxgpe02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.09.42" style="zoom:15%;" /><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtey6oh0gwj60u01sxtd602.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.19.18" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtey3wvmnuj60u01sx41i02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.13.01" width="25%;" /><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtey3w8ce3j60u01sxgpe02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.09.42" width="25%;" /><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtey6oh0gwj60u01sxtd602.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.19.18" width="25%;" />
 
    * 需要注意的是：
      * 如果两个图片大小不一致，遮罩层是从左下角开始绘制，效果如上面效果2
@@ -73,7 +73,7 @@
 
    这种方式没有参数，直接得到最终效果，此方法经常利用在图像降噪处理，附上最终效果
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gteyn7pnz7j60u01sxn2n02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.33.11" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gteyn7pnz7j60u01sxn2n02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.33.11" width="25%;" />
 
    
 
@@ -88,7 +88,7 @@
 
    附上实现效果
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gteyrdx637j60u01sxdiu02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.42.34" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gteyrdx637j60u01sxdiu02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.42.34" width="25%;" />
 
    
 
@@ -108,7 +108,7 @@
 
    附上展示效果
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtez08d8jyj60u01sxq7u02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.51.11" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtez08d8jyj60u01sxq7u02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.51.11" width="25%;" />
 
 8. `ZoomBlur`缩放模糊
 
@@ -119,7 +119,7 @@
 
    附上展示效果
 
-   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtez6fs1exj60u01sxgow02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.57.04" style="zoom:15%;" />
+   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtez6fs1exj60u01sxgow02.jpg" alt="Simulator Screen Shot - iPhone 12 Pro Max - 2021-08-13 at 10.57.04" width="25%;" />
 
    ## 总结
 
