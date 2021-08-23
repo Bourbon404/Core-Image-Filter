@@ -83,7 +83,7 @@
 
 下面是滤镜的简单使用
 
-<img src="/Users/bourbon/Library/Application%20Support/typora-user-images/%E6%88%AA%E5%B1%8F2021-08-23%20%E4%B8%8B%E5%8D%882.25.57.png" alt="截屏2021-08-23 下午2.25.57" width="50%;" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtqr5g50r0j60iu0e240m02.jpg" alt="截屏2021-08-23 下午2.25.57" width="50%;" />
 
 ## CIExposureAdjust
 
@@ -99,7 +99,7 @@
 
 下面是滤镜的简单使用
 
-<img src="/Users/bourbon/Library/Application%20Support/typora-user-images/%E6%88%AA%E5%B1%8F2021-08-23%20%E4%B8%8B%E5%8D%882.30.08.png" alt="截屏2021-08-23 下午2.30.08" width="50%;" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtqr5l6wqjj60iq0e6go102.jpg" alt="截屏2021-08-23 下午2.30.08" width="50%;" />
 
 ## CIGammaAdjust
 
@@ -170,7 +170,7 @@
 
 下面是此滤镜的简单使用
 
-<img src="/Users/bourbon/Library/Application%20Support/typora-user-images/%E6%88%AA%E5%B1%8F2021-08-23%20%E4%B8%8B%E5%8D%883.05.38.png" alt="截屏2021-08-23 下午3.05.38" width="50%;" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtqr5wewxmj60i20dignk02.jpg" alt="截屏2021-08-23 下午3.05.38" width="50%;" />
 
 ## CIWhitePointAdjust
 
