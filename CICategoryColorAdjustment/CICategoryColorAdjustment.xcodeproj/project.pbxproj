@@ -13,7 +13,7 @@
 		5759E09126C63CEE0047F6A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5759E08F26C63CEE0047F6A5 /* Main.storyboard */; };
 		5759E09326C63CF10047F6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5759E09226C63CF10047F6A5 /* Assets.xcassets */; };
 		5759E09626C63CF10047F6A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5759E09426C63CF10047F6A5 /* LaunchScreen.storyboard */; };
-		5759E09E26C63DCD0047F6A5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5759E09D26C63DCD0047F6A5 /* 1.jpg */; };
+		575D647B26D36E5F003BC422 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 575D647A26D36E5F003BC422 /* flower.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		5759E09226C63CF10047F6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5759E09526C63CF10047F6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5759E09726C63CF10047F6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5759E09D26C63DCD0047F6A5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../CICategoryBlur/CICategoryBlur/1.jpg; sourceTree = "<group>"; };
+		575D647A26D36E5F003BC422 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		5759E08826C63CEE0047F6A5 /* CICategoryColorAdjustment */ = {
 			isa = PBXGroup;
 			children = (
-				5759E09D26C63DCD0047F6A5 /* 1.jpg */,
+				575D647A26D36E5F003BC422 /* flower.png */,
 				5759E08926C63CEE0047F6A5 /* AppDelegate.swift */,
 				5759E08B26C63CEE0047F6A5 /* SceneDelegate.swift */,
 				5759E08D26C63CEE0047F6A5 /* ViewController.swift */,
@@ -128,8 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5759E09626C63CF10047F6A5 /* LaunchScreen.storyboard in Resources */,
-				5759E09E26C63DCD0047F6A5 /* 1.jpg in Resources */,
 				5759E09326C63CF10047F6A5 /* Assets.xcassets in Resources */,
+				575D647B26D36E5F003BC422 /* flower.png in Resources */,
 				5759E09126C63CEE0047F6A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

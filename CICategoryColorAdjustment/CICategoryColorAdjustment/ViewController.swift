@@ -19,13 +19,13 @@ class ViewController: UIViewController {
     /// 色钳
     /// - Returns: void
     func colorClamp() -> Void {
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIColorClamp")
         filter?.setValue(ciImage, forKey: "inputImage")
-        filter?.setValue(CIVector(x: 0.2, y: 0.2, z: 0.2, w: 0), forKey: "inputMinComponents")
-        filter?.setValue(CIVector(x: 0.8, y: 0.8, z: 0.8, w: 0.8), forKey: "inputMaxComponents")
+        filter?.setValue(CIVector(x: 1, y: 0, z: 1, w: 0), forKey: "inputMinComponents")
+        filter?.setValue(CIVector(x: 0.6, y: 1, z: 0.6, w: 1), forKey: "inputMaxComponents")
 
         if let resultCIImage = filter?.outputImage {
             imageView.image = UIImage(ciImage: resultCIImage)
@@ -36,15 +36,15 @@ class ViewController: UIViewController {
     /// - Returns: Void
     func colorControls() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIColorControls")
         filter?.setValue(ciImage, forKey: "inputImage")
         
-        filter?.setValue(50, forKey: "inputSaturation")
-        filter?.setValue(50, forKey: "inputBrightness")
-        filter?.setValue(50, forKey: "inputContrast")
+        filter?.setValue(0, forKey: "inputSaturation")
+        filter?.setValue(0, forKey: "inputBrightness")
+        filter?.setValue(1.1, forKey: "inputContrast")
 
         if let resultCIImage = filter?.outputImage {
             imageView.image = UIImage(ciImage: resultCIImage)
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     /// - Returns: Void
     func colorMatrix() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIColorMatrix")
@@ -71,9 +71,10 @@ class ViewController: UIViewController {
             imageView.image = UIImage(ciImage: resultCIImage)
         }
     }
+    /// 多项式
     func colorPolynomial() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIColorPolynomial")
@@ -92,7 +93,7 @@ class ViewController: UIViewController {
     /// - Returns: Void
     func exposureAdjust() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIExposureAdjust")
@@ -108,7 +109,7 @@ class ViewController: UIViewController {
     /// - Returns: Void
     func gammaAdjust() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIGammaAdjust")
@@ -124,7 +125,7 @@ class ViewController: UIViewController {
     /// - Returns: Void
     func hueAdjust() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIHueAdjust")
@@ -140,7 +141,7 @@ class ViewController: UIViewController {
     /// - Returns: Void
     func linearToSRGBToneCurve() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CILinearToSRGBToneCurve")
@@ -153,7 +154,7 @@ class ViewController: UIViewController {
     /// 将颜色强度从sRGB颜色空间映射到线性gamma曲线。
     /// - Returns: Void
     func sRGBToneCurveToLinear() -> Void {
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CISRGBToneCurveToLinear")
@@ -167,14 +168,14 @@ class ViewController: UIViewController {
     /// - Returns: Void
     func temperatureAndTint() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CITemperatureAndTint")
         filter?.setValue(ciImage, forKey: "inputImage")
                 
-        filter?.setValue(CIVector(x: 6500, y: 0), forKey: "inputNeutral")
-        filter?.setValue(CIVector(x: 6500, y: 0), forKey: "inputTargetNeutral")
+        filter?.setValue(CIVector(x: 10000, y: 0), forKey: "inputNeutral")
+        filter?.setValue(CIVector(x: 10000, y: 0), forKey: "inputTargetNeutral")
         if let resultCIImage = filter?.outputImage {
             imageView.image = UIImage(ciImage: resultCIImage)
         }
@@ -182,16 +183,16 @@ class ViewController: UIViewController {
     /// 调整图像的R、G和B通道的色调响应。
     /// - Returns: Void
     func toneCurve() -> Void {
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIToneCurve")
         filter?.setValue(ciImage, forKey: "inputImage")
                 
-        filter?.setValue(CIVector(x: 0, y: 0), forKey: "inputPoint0")
-        filter?.setValue(CIVector(x: 0.25, y: 0.25), forKey: "inputPoint1")
-        filter?.setValue(CIVector(x: 0.5, y: 0.5), forKey: "inputPoint2")
-        filter?.setValue(CIVector(x: 0.75, y: 0.75), forKey: "inputPoint3")
+        filter?.setValue(CIVector(x: 0.15, y: 0), forKey: "inputPoint0")
+        filter?.setValue(CIVector(x: 0.35, y: 0.25), forKey: "inputPoint1")
+        filter?.setValue(CIVector(x: 0.55, y: 0.5), forKey: "inputPoint2")
+        filter?.setValue(CIVector(x: 0.25, y: 0.75), forKey: "inputPoint3")
         filter?.setValue(CIVector(x: 1, y: 1), forKey: "inputPoint4")
 
         if let resultCIImage = filter?.outputImage {
@@ -201,7 +202,7 @@ class ViewController: UIViewController {
     /// 色彩饱和度
     /// - Returns: Void
     func vibrance() -> Void {
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIVibrance")
@@ -215,13 +216,13 @@ class ViewController: UIViewController {
     }
     func whitePointAdjust() -> Void {
         
-        let image = UIImage(named: "1.jpg")
+        let image = UIImage(named: "flower")
         let ciImage = CIImage(image: image!)
         
         let filter = CIFilter(name: "CIWhitePointAdjust")
         filter?.setValue(ciImage, forKey: "inputImage")
                 
-        let color = CIColor.yellow
+        let color = CIColor.red
         filter?.setValue(color, forKey: "inputColor")
         
         if let resultCIImage = filter?.outputImage {
