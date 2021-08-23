@@ -8,7 +8,7 @@
 
 首先来看下原图的效果
 
-<img src="/Users/bourbon/Documents/Core-Image-Filter/CICategoryColorAdjustment/CICategoryColorAdjustment/flower.png" alt="flower" width="50%;" />
+<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gtqr2n01yoj60hq0d7god02.jpg" alt="flower" width="50%;" />
 
 ##  CIColorClamp
 
