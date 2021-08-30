@@ -14,6 +14,7 @@
 		571DFAD626C5222800646CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571DFAD526C5222800646CC6 /* Assets.xcassets */; };
 		571DFAD926C5222800646CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571DFAD726C5222800646CC6 /* LaunchScreen.storyboard */; };
 		571DFAE126C5224D00646CC6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571DFAE026C5224D00646CC6 /* 1.jpg */; };
+		575162CB26DCD1C200CD4023 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575162CA26DCD1C200CD4023 /* FilterViewController.swift */; };
 		5759E07426C5FD760047F6A5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5759E07326C5FD760047F6A5 /* 2.png */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		571DFAD826C5222800646CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		571DFADA26C5222800646CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571DFAE026C5224D00646CC6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		575162CA26DCD1C200CD4023 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		5759E07326C5FD760047F6A5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				571DFACC26C5222500646CC6 /* AppDelegate.swift */,
 				571DFACE26C5222500646CC6 /* SceneDelegate.swift */,
 				571DFAD026C5222500646CC6 /* ViewController.swift */,
+				575162CA26DCD1C200CD4023 /* FilterViewController.swift */,
 				571DFAD226C5222500646CC6 /* Main.storyboard */,
 				571DFAD526C5222800646CC6 /* Assets.xcassets */,
 				571DFAD726C5222800646CC6 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				571DFAD126C5222500646CC6 /* ViewController.swift in Sources */,
 				571DFACD26C5222500646CC6 /* AppDelegate.swift in Sources */,
+				575162CB26DCD1C200CD4023 /* FilterViewController.swift in Sources */,
 				571DFACF26C5222500646CC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
