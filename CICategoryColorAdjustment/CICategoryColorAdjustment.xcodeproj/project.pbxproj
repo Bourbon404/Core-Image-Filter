@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575162CD26DCD54100CD4023 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575162CC26DCD54100CD4023 /* FilterViewController.swift */; };
 		5759E08A26C63CEE0047F6A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759E08926C63CEE0047F6A5 /* AppDelegate.swift */; };
 		5759E08C26C63CEE0047F6A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759E08B26C63CEE0047F6A5 /* SceneDelegate.swift */; };
 		5759E08E26C63CEE0047F6A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759E08D26C63CEE0047F6A5 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575162CC26DCD54100CD4023 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		5759E08626C63CEE0047F6A5 /* CICategoryColorAdjustment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICategoryColorAdjustment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5759E08926C63CEE0047F6A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5759E08B26C63CEE0047F6A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				5759E08926C63CEE0047F6A5 /* AppDelegate.swift */,
 				5759E08B26C63CEE0047F6A5 /* SceneDelegate.swift */,
 				5759E08D26C63CEE0047F6A5 /* ViewController.swift */,
+				575162CC26DCD54100CD4023 /* FilterViewController.swift */,
 				5759E08F26C63CEE0047F6A5 /* Main.storyboard */,
 				5759E09226C63CF10047F6A5 /* Assets.xcassets */,
 				5759E09426C63CF10047F6A5 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				5759E08E26C63CEE0047F6A5 /* ViewController.swift in Sources */,
 				5759E08A26C63CEE0047F6A5 /* AppDelegate.swift in Sources */,
+				575162CD26DCD54100CD4023 /* FilterViewController.swift in Sources */,
 				5759E08C26C63CEE0047F6A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
